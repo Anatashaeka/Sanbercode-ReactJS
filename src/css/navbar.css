@@ -1,0 +1,91 @@
+li {
+  float: left;
+  /* width: 50%; */
+}
+
+li a {
+  display: inline;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04aa6d;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* light theme */
+
+.light-nav {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #aaa;
+  background-color: white;
+}
+
+.light-nav li {
+  display: flex;
+}
+
+.light-nav li a {
+  color: #aaa;
+  padding: 20px 16px;
+}
+
+.light-nav li:hover {
+  background-color: #eee;
+  color: white;
+}
+
+/* dark theme */
+
+.dark-nav {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #aaa;
+  background-color: #333;
+}
+
+.dark-nav li {
+  display: flex;
+}
+
+.dark-nav li a {
+  color: white;
+  padding: 20px 16px;
+}
+
+.dark-nav li:hover {
+  background-color: #aaa;
+  color: white;
+}
+
+/* switch button  */
+
+.light-nav li span {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.dark-nav li span {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.ant-switch {
+  min-width: 70px;
+  display: flex;
+}

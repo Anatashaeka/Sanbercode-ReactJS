@@ -1,0 +1,16 @@
+.container-home_content {
+  padding: 20px 20px;
+  padding-top: 20px;
+}
+
+.container-home_content-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-card {
+  margin: 10px;
+}
